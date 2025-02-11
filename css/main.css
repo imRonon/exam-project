@@ -1,0 +1,295 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #252b42;
+}
+a {
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+.container {
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+}
+.header {
+}
+.clickables {
+    width: 815px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    width: 187px;
+    height: 58px;
+}
+.item-list {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.item-link {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+.register {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-link {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sign-up {
+    width: 214px;
+    height: 52px;
+    background-color: #23a6f0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.hero-mini {
+    background-image: url(../assets/images/blob.png);
+    background-repeat: no-repeat;
+
+    min-height: 730px;
+    padding-top: 93px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+.hero img {
+    width: 500px;
+}
+.hero-info {
+    width: 590px;
+}
+.title-hero {
+    font-family: Montserrat;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+.text-hero {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin-bottom: 35px;
+    width: 376px;
+}
+.btns {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quote {
+    width: 185px;
+    height: 52px;
+    border: 0;
+    background-color: #23a6f0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-radius: 37px;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    -ms-border-radius: 37px;
+    -o-border-radius: 37px;
+}
+.learn {
+    width: 154px;
+    height: 52px;
+    border: 1px solid #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 37px;
+}
+.header {
+    margin-bottom: 170px;
+}
+.main {
+}
+.main1 {
+    margin-bottom: 150px;
+}
+.m-title {
+    width: 445px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.m-text {
+    width: 470px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #737373;
+    margin: auto;
+    margin-bottom: 69px;
+}
+.m1-cards {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.m1-card {
+    width: 328px;
+    height: 139px;
+    padding: 0 23.5px;
+    padding-top: 35px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.card-img {
+    width: 48px;
+    height: 40px;
+}
+.card-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+.card-title {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+.card-texts {
+    width: 213px;
+}
+.main2 {
+    margin-bottom: 200px;
+}
+
+.m2-img {
+    margin: 0 auto;
+    display: block;
+}
+.download-row {
+    width: 930px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.download-btn {
+}
