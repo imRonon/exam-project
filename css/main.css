@@ -37,6 +37,7 @@ button {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 90px;
 }
 .logo {
     width: 187px;
